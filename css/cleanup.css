@@ -1,1 +1,16 @@
 /* write your override styles here */
+.tag-1 {
+    z-index: 7;
+  }
+  #wall #tag-2 {
+    background: url(../images/tag-2.png) no-repeat;
+    z-index: 6;
+  }
+  .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    width: 980px;
+    height: 622px;
+  }
+  div#wall #tag-3.slick {
+    background: url(../images/tag-3.png) no-repeat;
+    z-index: 5;
+  }
